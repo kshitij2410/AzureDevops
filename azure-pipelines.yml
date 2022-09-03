@@ -16,7 +16,6 @@ steps:
   inputs:
     Contents: '**/.war'
     TargetFolder: '$(build.artifactstagingdirectory)'
-  inputs:
     mavenPomFile: 'pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
